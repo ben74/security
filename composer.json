@@ -1,0 +1,11 @@
+{
+    "name": "alpow/security",
+    "description": "Security Tools",
+    "authors": [{"name": "ben", "email": "ben@x24.fr"}],
+    "minimum-stability": "dev","prefer-stable": true,
+    "require": {"php": ">=5.6.0"},
+    "autoload": {
+        "psr-0": {"Security": "src"},
+        "psr-4": {"Alpow\\Security\\": "src/"}
+    }
+}
